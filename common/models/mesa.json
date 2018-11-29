@@ -1,0 +1,53 @@
+{
+  "name": "mesa",
+  "plural": "mesas",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "idMestre": {
+      "type": "string",
+      "required": true
+    },
+    "nomeMesa": {
+      "type": "string",
+      "required": true
+    },
+    "tituloMesa": {
+      "type": "string",
+      "required": true
+    },
+    "sistemaMesa": {
+      "type": "string",
+      "required": true
+    },
+    "generoMesa": {
+      "type": "string",
+      "required": true
+    },
+    "jogadores": {
+      "type": [
+        "object"
+      ],
+      "required": false
+    },
+    "personagensJogadores": {
+      "type": "string",
+      "required": false
+    },
+    "historia": {
+      "type": "string",
+      "required": false
+    },
+    "personagens": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

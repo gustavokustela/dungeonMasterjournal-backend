@@ -1,0 +1,43 @@
+{
+  "name": "pessoa",
+  "plural": "pessoas",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "sobrenome": {
+      "type": "string",
+      "required": true
+    },
+    "userName": {
+      "type": "string",
+      "required": true
+    },
+    "userId": {
+      "type": "string",
+      "required": true
+    },
+    "userEmail": {
+      "type": "string",
+      "required": true
+    },
+    "imgPerfil": {
+      "type": "string",
+      "required": false
+    },
+    "tipoJogador": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

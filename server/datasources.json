@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "MongoDB": {
+    "host": "ds119164.mlab.com",
+    "port": 19164,
+    "url": "",
+    "database": "dmj",
+    "password": "kusdmj01",
+    "name": "MongoDB",
+    "user": "kustela",
+    "connector": "mongodb"
+  }
+}
